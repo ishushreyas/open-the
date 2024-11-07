@@ -9,9 +9,9 @@ export default function App() {
     // Define URL to fetch based on the path
     let url;
     if (path === "bg") {
-      url = "https://bhagwad-geeta.onrender.com";
+      url = "https://bhagwad-geeta.onrender.com/api/";
     } else if(path === "isa") {
-	url = "https://ishushreyas-admin.onrender.com";
+	url = "https://ishushreyas-admin.onrender.com/api";
     }else {
       console.warn("Unknown path, no URL to fetch.");
       return;
