@@ -21,7 +21,7 @@ export default function App() {
     fetch(url)
       .then(response => {
         if (response.ok) {
-          window.location.href = url.replace("/api"); // Redirect to the specified URL
+          window.location.href = url.replace("/api", ""); // Redirect to the specified URL
         } else {
           console.error("Failed to fetch the URL.");
         }
