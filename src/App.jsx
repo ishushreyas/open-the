@@ -12,7 +12,9 @@ export default function App() {
       url = "https://bhagwad-geeta.onrender.com/api/";
     } else if(path === "isa") {
 	url = "https://ishushreyas-admin.onrender.com/api";
-    }else {
+    }else if(path === "rm") {
+	    url = "https://record-manager-service.onrender.com/api/";
+    } else {
       console.warn("Unknown path, no URL to fetch.");
       return;
     }
